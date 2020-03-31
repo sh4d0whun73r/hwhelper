@@ -1,0 +1,568 @@
+[[package]]
+category = "main"
+description = "A database migration tool for SQLAlchemy."
+name = "alembic"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "1.4.2"
+
+[package.dependencies]
+Mako = "*"
+SQLAlchemy = ">=1.1.0"
+python-dateutil = "*"
+python-editor = ">=0.3"
+
+[[package]]
+category = "main"
+description = "A library for parsing ISO 8601 strings."
+name = "aniso8601"
+optional = false
+python-versions = "*"
+version = "8.0.0"
+
+[[package]]
+category = "main"
+description = ""
+name = "application"
+optional = false
+python-versions = "*"
+version = "1.0"
+
+[package.dependencies]
+Flask-Migrate = "2.3.0"
+Flask-MySQLdb = "0.2.0"
+Flask-RESTful = "0.3.6"
+Flask-SQLAlchemy = "2.1"
+SQLAlchemy = "1.2.13"
+flask = "*"
+flask-marshmallow = "0.9.0"
+marshmallow = "2.13.6"
+marshmallow-sqlalchemy = "0.15.0"
+mysqlclient = "1.3.13"
+
+[[package]]
+category = "main"
+description = "Classes Without Boilerplate"
+name = "attrs"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "19.3.0"
+
+[[package]]
+category = "main"
+description = "Internationalization utilities"
+name = "babel"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "2.8.0"
+
+[package.dependencies]
+pytz = ">=2015.7"
+
+[[package]]
+category = "main"
+description = "Screen-scraping library"
+name = "beautifulsoup4"
+optional = false
+python-versions = "*"
+version = "4.8.2"
+
+[package.dependencies]
+soupsieve = ">=1.2"
+
+[[package]]
+category = "main"
+description = "Universal encoding detector for Python 2 and 3"
+name = "chardet"
+optional = false
+python-versions = "*"
+version = "3.0.4"
+
+[[package]]
+category = "main"
+description = "Composable command line interface toolkit"
+name = "click"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+version = "7.1.1"
+
+[[package]]
+category = "main"
+description = "Python library for extract property from data."
+name = "dataproperty"
+optional = false
+python-versions = ">=3.5"
+version = "0.47.0"
+
+[package.dependencies]
+mbstrdecoder = ">=0.8.3,<2"
+setuptools = ">=38.3.0"
+typepy = ">=1.0.0,<2"
+
+[[package]]
+category = "main"
+description = "A simple framework for building complex web applications."
+name = "flask"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+version = "1.1.1"
+
+[package.dependencies]
+Jinja2 = ">=2.10.1"
+Werkzeug = ">=0.15"
+click = ">=5.1"
+itsdangerous = ">=0.24"
+
+[[package]]
+category = "main"
+description = "Adds i18n/l10n support to Flask applications"
+name = "flask-babel"
+optional = false
+python-versions = "*"
+version = "1.0.0"
+
+[package.dependencies]
+Babel = ">=2.3"
+Flask = "*"
+Jinja2 = ">=2.5"
+pytz = "*"
+
+[[package]]
+category = "main"
+description = "Flask + marshmallow for beautiful APIs"
+name = "flask-marshmallow"
+optional = false
+python-versions = "*"
+version = "0.9.0"
+
+[package.dependencies]
+Flask = "*"
+marshmallow = ">=2.0.0"
+six = ">=1.9.0"
+
+[[package]]
+category = "main"
+description = "SQLAlchemy database migrations for Flask applications using Alembic"
+name = "flask-migrate"
+optional = false
+python-versions = "*"
+version = "2.3.0"
+
+[package.dependencies]
+Flask = ">=0.9"
+Flask-SQLAlchemy = ">=1.0"
+alembic = ">=0.7"
+
+[[package]]
+category = "main"
+description = "MySQLdb extension for Flask"
+name = "flask-mysqldb"
+optional = false
+python-versions = "*"
+version = "0.2.0"
+
+[package.dependencies]
+Flask = ">=0.10"
+mysqlclient = "*"
+
+[[package]]
+category = "main"
+description = "Simple framework for creating REST APIs"
+name = "flask-restful"
+optional = false
+python-versions = "*"
+version = "0.3.6"
+
+[package.dependencies]
+Flask = ">=0.8"
+aniso8601 = ">=0.82"
+pytz = "*"
+six = ">=1.3.0"
+
+[[package]]
+category = "main"
+description = "Adds SQLAlchemy support to your Flask application"
+name = "flask-sqlalchemy"
+optional = false
+python-versions = "*"
+version = "2.1"
+
+[package.dependencies]
+Flask = ">=0.10"
+SQLAlchemy = ">=0.7"
+
+[[package]]
+category = "main"
+description = "HTML tables for use with the Flask micro-framework"
+name = "flask-table"
+optional = false
+python-versions = "*"
+version = "0.5.0"
+
+[package.dependencies]
+Flask = "*"
+Flask-Babel = "*"
+
+[[package]]
+category = "main"
+description = "Read metadata from Python packages"
+marker = "python_version < \"3.8\""
+name = "importlib-metadata"
+optional = false
+python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
+version = "1.6.0"
+
+[package.dependencies]
+zipp = ">=0.5"
+
+[[package]]
+category = "main"
+description = "Various helpers to pass data to untrusted environments and back."
+name = "itsdangerous"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "1.1.0"
+
+[[package]]
+category = "main"
+description = "A very fast and expressive template engine."
+name = "jinja2"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+version = "2.11.1"
+
+[package.dependencies]
+MarkupSafe = ">=0.23"
+
+[[package]]
+category = "main"
+description = "An implementation of JSON Schema validation for Python"
+name = "jsonschema"
+optional = false
+python-versions = "*"
+version = "3.2.0"
+
+[package.dependencies]
+attrs = ">=17.4.0"
+pyrsistent = ">=0.14.0"
+setuptools = "*"
+six = ">=1.11.0"
+
+[package.dependencies.importlib-metadata]
+python = "<3.8"
+version = "*"
+
+[[package]]
+category = "main"
+description = "A super-fast templating language that borrows the  best ideas from the existing templating languages."
+name = "mako"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "1.1.2"
+
+[package.dependencies]
+MarkupSafe = ">=0.9.2"
+
+[[package]]
+category = "main"
+description = "Safely add untrusted strings to HTML/XML markup."
+name = "markupsafe"
+optional = false
+python-versions = ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*"
+version = "1.1.1"
+
+[[package]]
+category = "main"
+description = "A lightweight library for converting complex datatypes to and from native Python datatypes."
+name = "marshmallow"
+optional = false
+python-versions = "*"
+version = "2.13.6"
+
+[[package]]
+category = "main"
+description = "SQLAlchemy integration with the marshmallow (de)serialization library"
+name = "marshmallow-sqlalchemy"
+optional = false
+python-versions = "*"
+version = "0.15.0"
+
+[package.dependencies]
+SQLAlchemy = ">=0.9.7"
+marshmallow = ">=2.0.0"
+
+[[package]]
+category = "main"
+description = "multi-byte character string decoder"
+name = "mbstrdecoder"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+version = "0.8.4"
+
+[package.dependencies]
+chardet = ">=3.0.4,<4"
+setuptools = ">=38.3.0"
+
+[[package]]
+category = "main"
+description = "msgfy is a Python library for convert Exception instance to a human-readable error message."
+name = "msgfy"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+version = "0.0.7"
+
+[package.dependencies]
+setuptools = ">=38.3.0"
+
+[[package]]
+category = "main"
+description = "Python interface to MySQL"
+name = "mysqlclient"
+optional = false
+python-versions = "*"
+version = "1.3.13"
+
+[[package]]
+category = "main"
+description = "NumPy is the fundamental package for array computing with Python."
+name = "numpy"
+optional = false
+python-versions = ">=3.5"
+version = "1.18.2"
+
+[[package]]
+category = "main"
+description = "Powerful data structures for data analysis, time series, and statistics"
+name = "pandas"
+optional = false
+python-versions = ">=3.6.1"
+version = "1.0.3"
+
+[package.dependencies]
+numpy = ">=1.13.3"
+python-dateutil = ">=2.6.1"
+pytz = ">=2017.2"
+
+[[package]]
+category = "main"
+description = "A module wrapper for os.path"
+name = "path"
+optional = false
+python-versions = ">=3.5"
+version = "13.1.0"
+
+[package.dependencies]
+[package.dependencies.importlib-metadata]
+python = "<3.8"
+version = ">=0.5"
+
+[[package]]
+category = "main"
+description = "A module wrapper for os.path"
+name = "path.py"
+optional = false
+python-versions = ">=3.5"
+version = "12.4.0"
+
+[package.dependencies]
+path = "<13.2"
+
+[[package]]
+category = "main"
+description = "pathvalidate is a Python library to sanitize/validate a string such as filenames/file-paths/etc."
+name = "pathvalidate"
+optional = false
+python-versions = ">=3.5"
+version = "2.2.2"
+
+[[package]]
+category = "main"
+description = "Persistent/Functional/Immutable data structures"
+name = "pyrsistent"
+optional = false
+python-versions = "*"
+version = "0.16.0"
+
+[package.dependencies]
+six = "*"
+
+[[package]]
+category = "main"
+description = "pytablereader is a Python library to load structured table data from files/strings/URL with various data format: CSV / Excel / Google-Sheets / HTML / JSON / LDJSON / LTSV / Markdown / SQLite / TSV."
+name = "pytablereader"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+version = "0.28.0"
+
+[package.dependencies]
+DataProperty = ">=0.46.3,<2"
+beautifulsoup4 = ">=4.4.1,<5"
+jsonschema = ">=2.5.1,<4"
+mbstrdecoder = ">=0.8.3,<2"
+"path.py" = "<13"
+pathvalidate = "<3"
+setuptools = ">=38.3.0"
+tabledata = ">=0.10.3,<2"
+typepy = ">=0.6.6,<2"
+
+[[package]]
+category = "main"
+description = "pytablewriter is a Python library to write a table in various formats: CSV / Elasticsearch / HTML / JavaScript / JSON / LaTeX / LDJSON / LTSV / Markdown / MediaWiki / NumPy / Excel / Pandas / Python / reStructuredText / SQLite / TOML / TSV."
+name = "pytablewriter"
+optional = false
+python-versions = ">=3.5"
+version = "0.50.0"
+
+[package.dependencies]
+DataProperty = ">=0.46.4,<2"
+mbstrdecoder = ">=0.8.3,<2"
+msgfy = ">=0.0.6,<1"
+pathvalidate = "<3"
+setuptools = ">=38.3.0"
+tabledata = ">=0.10.3,<2"
+typepy = ">=0.6.4,<2"
+
+[[package]]
+category = "main"
+description = "Extensions to the standard Python datetime module"
+name = "python-dateutil"
+optional = false
+python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7"
+version = "2.8.1"
+
+[package.dependencies]
+six = ">=1.5"
+
+[[package]]
+category = "main"
+description = "Programmatically open an editor, capture the result."
+name = "python-editor"
+optional = false
+python-versions = "*"
+version = "1.0.4"
+
+[[package]]
+category = "main"
+description = "World timezone definitions, modern and historical"
+name = "pytz"
+optional = false
+python-versions = "*"
+version = "2019.3"
+
+[[package]]
+category = "main"
+description = "Python 2 and 3 compatibility utilities"
+name = "six"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
+version = "1.14.0"
+
+[[package]]
+category = "main"
+description = "A modern CSS selector implementation for Beautiful Soup."
+name = "soupsieve"
+optional = false
+python-versions = ">=3.5"
+version = "2.0"
+
+[[package]]
+category = "main"
+description = "Database Abstraction Library"
+name = "sqlalchemy"
+optional = false
+python-versions = "*"
+version = "1.2.13"
+
+[[package]]
+category = "main"
+description = "tabledata is a Python library to represent tabular data. Used for pytablewriter/pytablereader/SimpleSQLite."
+name = "tabledata"
+optional = false
+python-versions = ">=3.5"
+version = "1.1.1"
+
+[package.dependencies]
+DataProperty = ">=0.47.0,<2"
+setuptools = ">=38.3.0"
+typepy = ">=1.0.0,<2"
+
+[[package]]
+category = "main"
+description = "typepy is a Python library for variable type checker/validator/converter at a run time."
+name = "typepy"
+optional = false
+python-versions = ">=3.5"
+version = "1.0.0"
+
+[package.dependencies]
+mbstrdecoder = ">=0.8.3,<2"
+setuptools = ">=38.3.0"
+
+[[package]]
+category = "main"
+description = "The comprehensive WSGI web application library."
+name = "werkzeug"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+version = "1.0.0"
+
+[[package]]
+category = "main"
+description = "Backport of pathlib-compatible object wrapper for zip files"
+marker = "python_version < \"3.8\""
+name = "zipp"
+optional = false
+python-versions = ">=3.6"
+version = "3.1.0"
+
+[metadata]
+content-hash = "83aeeefbb2d343c180ef8b8e4493496c4395164290001fdb9697e8d64530dac6"
+python-versions = "^3.7"
+
+[metadata.hashes]
+alembic = ["035ab00497217628bf5d0be82d664d8713ab13d37b630084da8e1f98facf4dbf"]
+aniso8601 = ["529dcb1f5f26ee0df6c0a1ee84b7b27197c3c50fc3a6321d66c544689237d072", "c033f63d028b9a58e3ab0c2c7d0532ab4bfa7452bfc788fbfe3ddabd327b181a"]
+application = ["865fe8d65325b6c69f730782192a51e2c6c09004f118c86b346b5c3be3e8cb09"]
+attrs = ["08a96c641c3a74e44eb59afb61a24f2cb9f4d7188748e76ba4bb5edfa3cb7d1c", "f7b7ce16570fe9965acd6d30101a28f62fb4a7f9e926b3bbc9b61f8b04247e72"]
+babel = ["1aac2ae2d0d8ea368fa90906567f5c08463d98ade155c0c4bfedd6a0f7160e38", "d670ea0b10f8b723672d3a6abeb87b565b244da220d76b4dba1b66269ec152d4"]
+beautifulsoup4 = ["05fd825eb01c290877657a56df4c6e4c311b3965bda790c613a3d6fb01a5462a", "9fbb4d6e48ecd30bcacc5b63b94088192dcda178513b2ae3c394229f8911b887", "e1505eeed31b0f4ce2dbb3bc8eb256c04cc2b3b72af7d551a4ab6efd5cbe5dae"]
+chardet = ["84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae", "fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"]
+click = ["8a18b4ea89d8820c5d0c7da8a64b2c324b4dabb695804dbfea19b9be9d88c0cc", "e345d143d80bf5ee7534056164e5e112ea5e22716bbb1ce727941f4c8b471b9a"]
+dataproperty = ["1fa7019588a1294e833274082c50ae3c6bd134f12c5338ed34f1924ae6eb4130", "ed53725274332b3f9e2c09ed770261eee1a19deea4432393c294aaa7ed3a766d"]
+flask = ["13f9f196f330c7c2c5d7a5cf91af894110ca0215ac051b5844701f2bfd934d52", "45eb5a6fd193d6cf7e0cf5d8a5b31f83d5faae0293695626f539a823e93b13f6"]
+flask-babel = ["247f4ec34cf605d03781f480bccb1a5acb719df1d1a2a743c091ab3db5d5fde2", "d6a70468f9a8919d59fba2a291a003da3a05ff884275dddbd965f3b98b09ab3e"]
+flask-marshmallow = ["75c9d80f22af982b1e8ccec109d3b75c14bb5570602ae3705a4ff775badd2816", "db7aff4130eb99fd05ab78fd2e2c58843ba0f208899aeb1c14aff9cd98ae8c80"]
+flask-migrate = ["a25b3d2d2bb0f0724f104afbadae888a4b942e7221b451f720c69698d4863da7", "cb7d7b37feb68e3a8769aaf7a3954ecbdcd9bdeef8f21cede9eaa07c813f8af9"]
+flask-mysqldb = ["1003c3d72d61a34f1ce5b1cbe427f31816f0c561cee5cd60d8158431381c37d7"]
+flask-restful = ["5795519501347e108c436b693ff9a4d7b373a3ac9069627d64e4001c05dd3407", "e2f1b8063de3944b94c7f8be5cee4d2161db0267c54c5b757d875295061776fa"]
+flask-sqlalchemy = ["c5244de44cc85d2267115624d83faef3f9e8f088756788694f305a5d5ad137c5"]
+flask-table = ["320e5756cd7252e902e03b6cd1087f2c7ebc31364341b482f41f30074d10a770"]
+importlib-metadata = ["2a688cbaa90e0cc587f1df48bdc97a6eadccdcd9c35fb3f976a09e3b5016d90f", "34513a8a0c4962bc66d35b359558fd8a5e10cd472d37aec5f66858addef32c1e"]
+itsdangerous = ["321b033d07f2a4136d3ec762eac9f16a10ccd60f53c0c91af90217ace7ba1f19", "b12271b2047cb23eeb98c8b5622e2e5c5e9abd9784a153e9d8ef9cb4dd09d749"]
+jinja2 = ["93187ffbc7808079673ef52771baa950426fd664d3aad1d0fa3e95644360e250", "b0eaf100007721b5c16c1fc1eecb87409464edc10469ddc9a22a27a99123be49"]
+jsonschema = ["4e5b3cf8216f577bee9ce139cbe72eca3ea4f292ec60928ff24758ce626cd163", "c8a85b28d377cc7737e46e2d9f2b4f44ee3c0e1deac6bf46ddefc7187d30797a"]
+mako = ["3139c5d64aa5d175dbafb95027057128b5fbd05a40c53999f3905ceb53366d9d", "8e8b53c71c7e59f3de716b6832c4e401d903af574f6962edbbbf6ecc2a5fe6c9"]
+markupsafe = ["00bc623926325b26bb9605ae9eae8a215691f33cae5df11ca5424f06f2d1f473", "09027a7803a62ca78792ad89403b1b7a73a01c8cb65909cd876f7fcebd79b161", "09c4b7f37d6c648cb13f9230d847adf22f8171b1ccc4d5682398e77f40309235", "1027c282dad077d0bae18be6794e6b6b8c91d58ed8a8d89a89d59693b9131db5", "13d3144e1e340870b25e7b10b98d779608c02016d5184cfb9927a9f10c689f42", "24982cc2533820871eba85ba648cd53d8623687ff11cbb805be4ff7b4c971aff", "29872e92839765e546828bb7754a68c418d927cd064fd4708fab9fe9c8bb116b", "43a55c2930bbc139570ac2452adf3d70cdbb3cfe5912c71cdce1c2c6bbd9c5d1", "46c99d2de99945ec5cb54f23c8cd5689f6d7177305ebff350a58ce5f8de1669e", "500d4957e52ddc3351cabf489e79c91c17f6e0899158447047588650b5e69183", "535f6fc4d397c1563d08b88e485c3496cf5784e927af890fb3c3aac7f933ec66", "596510de112c685489095da617b5bcbbac7dd6384aeebeda4df6025d0256a81b", "62fe6c95e3ec8a7fad637b7f3d372c15ec1caa01ab47926cfdf7a75b40e0eac1", "6788b695d50a51edb699cb55e35487e430fa21f1ed838122d722e0ff0ac5ba15", "6dd73240d2af64df90aa7c4e7481e23825ea70af4b4922f8ede5b9e35f78a3b1", "717ba8fe3ae9cc0006d7c451f0bb265ee07739daf76355d06366154ee68d221e", "79855e1c5b8da654cf486b830bd42c06e8780cea587384cf6545b7d9ac013a0b", "7c1699dfe0cf8ff607dbdcc1e9b9af1755371f92a68f706051cc8c37d447c905", "88e5fcfb52ee7b911e8bb6d6aa2fd21fbecc674eadd44118a9cc3863f938e735", "8defac2f2ccd6805ebf65f5eeb132adcf2ab57aa11fdf4c0dd5169a004710e7d", "98c7086708b163d425c67c7a91bad6e466bb99d797aa64f965e9d25c12111a5e", "9add70b36c5666a2ed02b43b335fe19002ee5235efd4b8a89bfcf9005bebac0d", "9bf40443012702a1d2070043cb6291650a0841ece432556f784f004937f0f32c", "ade5e387d2ad0d7ebf59146cc00c8044acbd863725f887353a10df825fc8ae21", "b00c1de48212e4cc9603895652c5c410df699856a2853135b3967591e4beebc2", "b1282f8c00509d99fef04d8ba936b156d419be841854fe901d8ae224c59f0be5", "b2051432115498d3562c084a49bba65d97cf251f5a331c64a12ee7e04dacc51b", "ba59edeaa2fc6114428f1637ffff42da1e311e29382d81b339c1817d37ec93c6", "c8716a48d94b06bb3b2524c2b77e055fb313aeb4ea620c8dd03a105574ba704f", "cd5df75523866410809ca100dc9681e301e3c27567cf498077e8551b6d20e42f", "cdb132fc825c38e1aeec2c8aa9338310d29d337bebbd7baa06889d09a60a1fa2", "e249096428b3ae81b08327a63a485ad0878de3fb939049038579ac0ef61e17e7", "e8313f01ba26fbbe36c7be1966a7b7424942f670f38e666995b88d012765b9be"]
+marshmallow = ["9f95c0d9ca063310a96134b55b12edfc3a1d963faa7b320e0d02352d11e0fecf", "e3e83f11cade65fc78482a7620f01f82080f032b5fb51756e396635ebc711c75"]
+marshmallow-sqlalchemy = ["1a4813bbcd2a34f10b1fcad5f4ed85355739f39edb223e6cf68a95bd75807885", "5fc53b6fac10c3e0d0c3e1ba19312860b54534ffc56bc5d9615bf680f35a18de"]
+mbstrdecoder = ["651c5aa74c09eb3d049771471bd4e2c91ed637663b08e037ff9f30315f4680d7", "a28e73ad38c49ced4e80778e1f1fb491291b92460285e5c271d8925495aa8b5f"]
+msgfy = ["370c54bb036d3728af8004e750b7cd7bc5a4ac25f9cdb8be13b7865cae3c73ee", "ed14ef121857d3d7e660c9735e2eb8e17155e2e5dbc3ee5f380e531d40022fc2"]
+mysqlclient = ["ff8ee1be84215e6c30a746b728c41eb0701a46ca76e343af445b35ce6250644f"]
+numpy = ["1598a6de323508cfeed6b7cd6c4efb43324f4692e20d1f76e1feec7f59013448", "1b0ece94018ae21163d1f651b527156e1f03943b986188dd81bc7e066eae9d1c", "2e40be731ad618cb4974d5ba60d373cdf4f1b8dcbf1dcf4d9dff5e212baf69c5", "4ba59db1fcc27ea31368af524dcf874d9277f21fd2e1f7f1e2e0c75ee61419ed", "59ca9c6592da581a03d42cc4e270732552243dc45e87248aa8d636d53812f6a5", "5e0feb76849ca3e83dd396254e47c7dba65b3fa9ed3df67c2556293ae3e16de3", "6d205249a0293e62bbb3898c4c2e1ff8a22f98375a34775a259a0523111a8f6c", "6fcc5a3990e269f86d388f165a089259893851437b904f422d301cdce4ff25c8", "82847f2765835c8e5308f136bc34018d09b49037ec23ecc42b246424c767056b", "87902e5c03355335fc5992a74ba0247a70d937f326d852fc613b7f53516c0963", "9ab21d1cb156a620d3999dd92f7d1c86824c622873841d6b080ca5495fa10fef", "a1baa1dc8ecd88fb2d2a651671a84b9938461e8a8eed13e2f0a812a94084d1fa", "a244f7af80dacf21054386539699ce29bcc64796ed9850c99a34b41305630286", "a35af656a7ba1d3decdd4fae5322b87277de8ac98b7d9da657d9e212ece76a61", "b1fe1a6f3a6f355f6c29789b5927f8bd4f134a4bd9a781099a7c4f66af8850f5", "b5ad0adb51b2dee7d0ee75a69e9871e2ddfb061c73ea8bc439376298141f77f5", "ba3c7a2814ec8a176bb71f91478293d633c08582119e713a0c5351c0f77698da", "cd77d58fb2acf57c1d1ee2835567cd70e6f1835e32090538f17f8a3a99e5e34b", "cdb3a70285e8220875e4d2bc394e49b4988bdb1298ffa4e0bd81b2f613be397c", "deb529c40c3f1e38d53d5ae6cd077c21f1d49e13afc7936f7f868455e16b64a0", "e7894793e6e8540dbeac77c87b489e331947813511108ae097f1715c018b8f3d"]
+pandas = ["07c1b58936b80eafdfe694ce964ac21567b80a48d972879a359b3ebb2ea76835", "0ebe327fb088df4d06145227a4aa0998e4f80a9e6aed4b61c1f303bdfdf7c722", "11c7cb654cd3a0e9c54d81761b5920cdc86b373510d829461d8f2ed6d5905266", "12f492dd840e9db1688126216706aa2d1fcd3f4df68a195f9479272d50054645", "167a1315367cea6ec6a5e11e791d9604f8e03f95b57ad227409de35cf850c9c5", "1a7c56f1df8d5ad8571fa251b864231f26b47b59cbe41aa5c0983d17dbb7a8e4", "1fa4bae1a6784aa550a1c9e168422798104a85bf9c77a1063ea77ee6f8452e3a", "32f42e322fb903d0e189a4c10b75ba70d90958cc4f66a1781ed027f1a1d14586", "387dc7b3c0424327fe3218f81e05fc27832772a5dffbed385013161be58df90b", "6597df07ea361231e60c00692d8a8099b519ed741c04e65821e632bc9ccb924c", "743bba36e99d4440403beb45a6f4f3a667c090c00394c176092b0b910666189b", "858a0d890d957ae62338624e4aeaf1de436dba2c2c0772570a686eaca8b4fc85", "863c3e4b7ae550749a0bb77fa22e601a36df9d2905afef34a6965bed092ba9e5", "a210c91a02ec5ff05617a298ad6f137b9f6f5771bf31f2d6b6367d7f71486639", "ca84a44cf727f211752e91eab2d1c6c1ab0f0540d5636a8382a3af428542826e", "d234bcf669e8b4d6cbcd99e3ce7a8918414520aeb113e2a81aeb02d0a533d7f7"]
+path = ["41f0db0b6e32b3fc33c0bede630f6b58c7790af3a27c899e0c7ff69143d8696d", "97249b37e5e4017429a780920147200a2215e268c1a18fa549fec0b654ce99b7"]
+"path.py" = ["6647ca22523f5e868b110cc3d958be01aa92e662a8241e464f7416779427bf3e", "c88fb6073b955b2b2c9f3da61b94a2a4c61d722b776b562c26f29e05425eb55a"]
+pathvalidate = ["7e9c15dfdab7030c8911080a5606a5f543af5a6d5af98bc24e9c70dec88ae179", "e11b54eabfc227c9561f5b9b1e1b1eeb3e93db0f1a1dc333bfce95218c251feb"]
+pyrsistent = ["28669905fe725965daa16184933676547c5bb40a5153055a8dee2a4bd7933ad3"]
+pytablereader = ["5117eaea6f02d390c105583be746b96f453209cc98bad70cfb17b6042c2f449a", "8fea3372f851058a82359cb30801296c7de9f5644b803ce07090c585e179f913"]
+pytablewriter = ["aa483f67653b130b50f076763d7a2e84fff3c096c032ffd64b78e735edc21a3d", "f59f3c9ceab59aa6d65cb61d3b9638b333057ba83a2c53aeec6c687920a9bbf6"]
+python-dateutil = ["73ebfe9dbf22e832286dafa60473e4cd239f8592f699aa5adaf10050e6e1823c", "75bb3f31ea686f1197762692a9ee6a7550b59fc6ca3a1f4b5d7e32fb98e2da2a"]
+python-editor = ["1bf6e860a8ad52a14c3ee1252d5dc25b2030618ed80c022598f00176adc8367d", "51fda6bcc5ddbbb7063b2af7509e43bd84bfc32a4ff71349ec7847713882327b", "5f98b069316ea1c2ed3f67e7f5df6c0d8f10b689964a4a811ff64f0106819ec8", "c3da2053dbab6b29c94e43c486ff67206eafbe7eb52dbec7390b5e2fb05aac77", "ea87e17f6ec459e780e4221f295411462e0d0810858e055fc514684350a2f522"]
+pytz = ["1c557d7d0e871de1f5ccd5833f60fb2550652da6be2693c1e02300743d21500d", "b02c06db6cf09c12dd25137e563b31700d3b80fcc4ad23abb7a315f2789819be"]
+six = ["236bdbdce46e6e6a3d61a337c0f8b763ca1e8717c03b369e87a7ec7ce1319c0a", "8f3cd2e254d8f793e7f3d6d9df77b92252b52637291d0f0da013c76ea2724b6c"]
+soupsieve = ["e914534802d7ffd233242b785229d5ba0766a7f487385e3f714446a07bf540ae", "fcd71e08c0aee99aca1b73f45478549ee7e7fc006d51b37bec9e9def7dc22b69"]
+sqlalchemy = ["84412de3794acee05630e7788f25e80e81f78eb4837e7b71d0499129f660486a"]
+tabledata = ["22fdc8fb52e2533792d24ecab84c516135e03a7b520da9453dfa0e707a742ccc", "f593b83b57a81a43154a247ff29520ad94b198266536c1322721d6be965ccb7f"]
+typepy = ["4d10fb9f88524bcf1292e9a1256c8f88345390f8c06d47a18b3b669d7017b90f", "e422165afc5632ef8006ae6b35a3984a132f60287809752099f8d0a16d3561dd"]
+werkzeug = ["169ba8a33788476292d04186ab33b01d6add475033dfc07215e6d219cc077096", "6dc65cf9091cf750012f56f2cad759fa9e879f511b5ff8685e456b4e3bf90d16"]
+zipp = ["aa36550ff0c0b7ef7fa639055d797116ee891440eac1a56f378e2d3179e0320b", "c599e4d75c98f6798c509911d08a22e6c021d074469042177c8c86fb92eefd96"]

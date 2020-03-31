@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <title>Homework Helper</title>
+    </head>
+    <body>
+        <div class="title">
+          <h1>Homework Helper</h1>
+          <p>Submit your questions about your homework here and people will help!</p>
+        </div>
+        <div class="form">
+          <form name="inquiry" action="{{ url_for('index')}}" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="lname">Email:</label>
+            <input type="text" id="email" name="email" required><br><br>
+            <label for="question">Question:</label>
+            <input type="text" id="question" name="question" required><br><br>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+    </body>
+</html>
