@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect
 import csv
 
 app = Flask(__name__)
@@ -14,7 +14,7 @@ def index():
     with open('uploads/questions.csv','a') as csvfile:
       writer = csv.writer(csvfile, delimiter=',')
       writer.writerow([name,email,question])
-    return render_template('view.html', n=name, q=question, e=email)
+    return redirect('/view')
 
 def read_csv(filename):
     with open(filename) as csvfile:
