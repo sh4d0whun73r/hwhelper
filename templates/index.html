@@ -19,7 +19,7 @@
             color: white;
           }
           .header:hover {
-            background-color:#8B0000;
+            background-color:black;
             animation-name: example;
             animation-duration: 4s;
           }
@@ -71,10 +71,8 @@
     </head>
     <body>
         <div class="title">
-          <form action="http://hwhelper--alex12703.repl.co/hypno">
-            <button class="header">Homework Helper</button>
-            <p>Submit your questions about your homework here and people will help!</p>
-          </form>
+          <button class="header">Homework Helper</button>
+          <p>Submit your questions about your homework here and people will help!</p>
         </div>
         <div class="form">
           <form name="inquiry" action="{{ url_for('index')}}" method="POST">
