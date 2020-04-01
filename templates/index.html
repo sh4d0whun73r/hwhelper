@@ -3,23 +3,88 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="./style.css">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
         <title>Homework Helper</title>
+        <style>
+          body {
+            background:black;
+            color: white;
+            font-family: sans-serif;
+          }
+          .header{
+            font-size: 32px;
+            font-weight: bold;
+            border: none;
+            background:black;
+            color: white;
+          }
+          .header:hover {
+            background-color:#8B0000;
+            animation-name: example;
+            animation-duration: 4s;
+          }
+          @keyframes example {
+            0%   {background-color: red;}
+            25%  {background-color: yellow;}
+            50%  {background-color: blue;}
+            100% {background-color: green;}
+          }
+          .title {
+            margin: 0 auto;
+            width: 300px;
+            text-align: center;
+          }
+          .form {
+        		margin: 0 auto;
+        		width: 275px;
+          	}
+        	.form label{
+        		display: inline-block;
+        		text-align: right;
+	        	float: left;
+        	}
+        	.form input{
+		        display: inline-block;
+		        text-align: left;
+		        float: right;
+        	}
+          .button {
+            padding: 15px 25px;
+            font-size: 20px;
+            text-align: center;
+            display: block;
+            cursor: pointer;
+            outline: none;
+            color: #fff;
+            background-color: red;
+            border: none;
+            border-radius: 20px;
+            margin: 0 auto;
+            width: 275px;
+          }
+          .button:hover {background-color:#8B0000}
+          .button:active {
+            background-color:red;
+            transform: translateY(4px);
+          }
+        </style>
     </head>
     <body>
         <div class="title">
-          <h1>Homework Helper</h1>
-          <p>Submit your questions about your homework here and people will help!</p>
+          <form action="http://hwhelper--alex12703.repl.co/hypno">
+            <button class="header">Homework Helper</button>
+            <p>Submit your questions about your homework here and people will help!</p>
+          </form>
         </div>
         <div class="form">
           <form name="inquiry" action="{{ url_for('index')}}" method="POST">
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required><br><br>
-            <label for="lname">Email:</label>
-            <input type="text" id="email" name="email" required><br><br>
+            <input type="text" id="name" name="name" placeholder="e.g. Harry" required><br><br>
+            <label for="lname">Email (DHS):</label>
+            <input type="email" id="email" name="email" pattern=".+@dhs.sg" placeholder="e.g. example@dhs.sg" required><br><br>
             <label for="question">Question:</label>
-            <input type="text" id="question" name="question" required><br><br>
-            <input type="submit" value="Submit">
+            <input type="text" id="question" name="question" placeholder="e.g. What is a variable?" required><br><br>
+            <button class="button">Submit</button>
           </form>
         </div>
     </body>
