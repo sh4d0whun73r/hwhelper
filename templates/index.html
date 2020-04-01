@@ -71,7 +71,9 @@
     </head>
     <body>
         <div class="title">
-          <button class="header">Homework Helper</button>
+          <form action="{{ url_for('easter')}}">
+            <button class="header">Homework Helper</button>
+          </form>
           <p>Submit your questions about your homework here and people will help!</p>
         </div>
         <div class="form">

@@ -27,6 +27,10 @@ def testing():
     headers = csv_data[0].keys()
     return render_template('view.html', csv_data=csv_data, headers=headers)
 
+@app.route('/easter')
+def easter():
+  return render_template('easter.html')
+
 app.run(host='0.0.0.0', port=8080)
 
 if __name__ == '__main__':
